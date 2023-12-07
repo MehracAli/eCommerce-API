@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A40D41AE-6B6D-407E-BC68-4E5E55243693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Domain", "Core\eCommerce.Domain\eCommerce.Domain.csproj", "{758F5593-A8CA-4564-A38E-407F6438C2AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Application", "Core\eCommerce.Application\eCommerce.Application.csproj", "{CF1F1EE5-7390-43DC-81FE-6E1D4036A840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DFA27ADA-928D-40A5-B64E-EA61CDF7E859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Infrastructure", "Infrastructure\eCommerce.Infrastructure\eCommerce.Infrastructure.csproj", "{16E4500C-582D-4D0C-A3A3-3598B560E3BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Persistance", "Infrastructure\eCommerce.Persistance\eCommerce.Persistance.csproj", "{E597154E-6CEF-4C46-9B2E-038FEA64E0EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F42909D7-10DB-49C4-AF7F-016614AD711B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.UI", "Presentation\eCommerce.UI\eCommerce.UI.csproj", "{DA668A74-6482-49AB-8083-702CAB0CD415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{758F5593-A8CA-4564-A38E-407F6438C2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758F5593-A8CA-4564-A38E-407F6438C2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758F5593-A8CA-4564-A38E-407F6438C2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758F5593-A8CA-4564-A38E-407F6438C2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1F1EE5-7390-43DC-81FE-6E1D4036A840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1F1EE5-7390-43DC-81FE-6E1D4036A840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1F1EE5-7390-43DC-81FE-6E1D4036A840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1F1EE5-7390-43DC-81FE-6E1D4036A840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E4500C-582D-4D0C-A3A3-3598B560E3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E4500C-582D-4D0C-A3A3-3598B560E3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E4500C-582D-4D0C-A3A3-3598B560E3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E4500C-582D-4D0C-A3A3-3598B560E3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E597154E-6CEF-4C46-9B2E-038FEA64E0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E597154E-6CEF-4C46-9B2E-038FEA64E0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E597154E-6CEF-4C46-9B2E-038FEA64E0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E597154E-6CEF-4C46-9B2E-038FEA64E0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA668A74-6482-49AB-8083-702CAB0CD415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA668A74-6482-49AB-8083-702CAB0CD415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA668A74-6482-49AB-8083-702CAB0CD415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA668A74-6482-49AB-8083-702CAB0CD415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{758F5593-A8CA-4564-A38E-407F6438C2AC} = {A40D41AE-6B6D-407E-BC68-4E5E55243693}
+		{CF1F1EE5-7390-43DC-81FE-6E1D4036A840} = {A40D41AE-6B6D-407E-BC68-4E5E55243693}
+		{16E4500C-582D-4D0C-A3A3-3598B560E3BC} = {DFA27ADA-928D-40A5-B64E-EA61CDF7E859}
+		{E597154E-6CEF-4C46-9B2E-038FEA64E0EE} = {DFA27ADA-928D-40A5-B64E-EA61CDF7E859}
+		{DA668A74-6482-49AB-8083-702CAB0CD415} = {F42909D7-10DB-49C4-AF7F-016614AD711B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2973C952-6D87-4AF5-B367-2CA9990DB540}
+	EndGlobalSection
+EndGlobal
