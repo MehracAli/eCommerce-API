@@ -7,7 +7,7 @@ namespace eCommerce.Domain.Entities
         public string Description { get; set; }
         public string Addres { get; set; }
 
-        ICollection<Product> Products { get; set; }
+        public ICollection<Product> Products { get; set; }
 
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }
