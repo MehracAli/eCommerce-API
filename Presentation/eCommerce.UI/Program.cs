@@ -1,11 +1,8 @@
-using eCommerce.Application.Abstractions;
-using eCommerce.Persistance.Concretes;
 using eCommerce.Persistance.Contexts;
 using Microsoft.EntityFrameworkCore;
 
-    var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
